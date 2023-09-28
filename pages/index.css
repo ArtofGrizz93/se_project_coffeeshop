@@ -18,9 +18,10 @@
   padding: 30px 80px 40px;
   display: flex;
   flex-direction: column;
+  box
 }
 
-.logo {
+.nav {
   display: flex;
   justify-content: space-between;
 }
