@@ -85,7 +85,7 @@
   line-height: 30px;
 }
 
-.image {
+.header__image {
   display: flex;
   width: 646px;
   height: 568px;
