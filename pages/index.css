@@ -173,6 +173,9 @@
 .reservation__form__fieldset {
   max-width: 385px;
   margin: 0 auto;
+}
+
+.form__fieldset {
   padding: 0;
   border: 0;
 }
