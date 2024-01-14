@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Work with gradient transistions
+Use keyframes to make dancing snowflakes or coffee cups in the menu
