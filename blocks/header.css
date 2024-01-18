@@ -1,9 +1,10 @@
 .header {
+  z-index: 1;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  background: url(/Users/JOffi/projects/se_project_coffeeshop/images/background_header.svg),
-    no-repeat, center, #fff;
+  background: url(../images/background_header.svg), no-repeat, center, #fff;
+  box-sizing: border-box;
   background-size: cover;
   padding: 30px 80px 40px;
   display: flex;
@@ -36,7 +37,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 683px;
-  margin: 24px 0;
+  margin: 28px 0 0;
   font-family: "Noto Serif", Times, serif;
   font-style: normal;
   font-size: 20px;
@@ -50,6 +51,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -57,8 +59,12 @@
   justify-content: space-between;
   margin-top: auto;
   color: #838383;
+  align-items: end;
 }
 
 .header__paragraph {
   margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
