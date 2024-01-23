@@ -1,7 +1,6 @@
 .reservation {
-  background: url(/Users/JOffi/projects/se_project_coffeeshop/images/background_reservation.svg)
-      no-repeat,
-    center, #d9e7ff;
+  background: url(../images/background_reservation.svg) no-repeat, center,
+    #d9e7ff;
   background-size: cover;
   padding: 100px 0 120px;
 }
@@ -9,7 +8,7 @@
 .reservation__title {
   display: flex;
   justify-content: center;
-  padding: 100px 0 80px;
+  padding: 0 0 80px;
   margin: 0 auto;
   font-family: Inter;
   font-style: normal;
@@ -21,67 +20,4 @@
 .reservation__form {
   max-width: 385px;
   margin: 0 auto;
-}
-
-.form__fieldset {
-  padding: 0;
-  border: 0;
-}
-
-.form__label {
-  margin-bottom: 32px;
-  display: block;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form__label_type_checkbox {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-}
-
-.form__input {
-  display: block;
-  width: 100%;
-  padding: 0;
-  box-sizing: border-box;
-  margin-top: 8px;
-  border-radius: 4px;
-  height: 60px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-}
-
-.form__button {
-  width: 100%;
-  padding: 0;
-  display: block;
-  margin: 32px 0 32px;
-  background-color: #2f80ed;
-  color: #fff;
-  height: 60px;
-  border-radius: 4px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  transition: opacity 1s;
-}
-
-.form__button:hover {
-  opacity: 0.7;
-  transition: linear 1s;
-}
-
-.form__checkbox {
-  border-radius: 2px;
 }
